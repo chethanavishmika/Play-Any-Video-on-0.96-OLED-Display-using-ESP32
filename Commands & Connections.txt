@@ -1,0 +1,13 @@
+Display & ESP32:
+
+GND ----------- GND
+VCC ----------- 3.3v
+SCL ----------- GPIO 22
+SDA ----------- GPIO 21
+
+Commands:
+
+py -m pip install pillow
+py -m pip install numpy
+ffmpeg -i lyrics.mp4 -s 128x64 -vf fps=15 -ss 0 -t 16 frame_%04d.png
+py f2c.py
