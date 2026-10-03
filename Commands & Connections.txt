@@ -9,5 +9,5 @@ Commands:
 
 py -m pip install pillow
 py -m pip install numpy
-ffmpeg -i lyrics.mp4 -s 128x64 -vf fps=15 -ss 0 -t 16 frame_%04d.png
+ffmpeg -i your_video.mp4 -s 128x64 -vf fps=15 -ss 0 -t 16 frame_%04d.png
 py f2c.py
